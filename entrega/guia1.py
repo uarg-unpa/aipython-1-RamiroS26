@@ -138,18 +138,173 @@
 
 #base_rectangulo = float(input("Ingrese la base del rectángulo: "))
 #altura_rectangulo = float(input("Ingrese la altura del rectángulo:"))
-
 #perimetro_rectangulo = 2 * (base_rectangulo + altura_rectangulo)
 #area_rectangulo = base_rectangulo * altura_rectangulo
 #print(f"Rectángulo - Perímetro: {perimetro_rectangulo}, Área: {area_rectangulo}")
 
 #radio_circunferencia = float(input("Ingrese el radio de la circunferencia: "))
-
 #pi = 3.14
-
 #perimetro_circunferencia = 2 * pi * radio_circunferencia
 #area_circunferencia = pi * radio_circunferencia ** 2
 #print(f"Circunferencia - Perímetro: {perimetro_circunferencia}, Área: {area_circunferencia}")
 
 #9
+
+#peso = float(input("Ingrese su peso: "))
+#estatura = float(input("Ingrese su estatura: "))
+#imc = peso/(estatura*estatura)
+#print(f"Tu indice de masa corporal es: {imc}")
+
+#10
+
+#temp = float(input("Ingrese una temperatura en °C: "))
+#conversion = (temp*1.8)+32
+#print(f"La temperatura en °F es: {conversion}")
+
+#11
+
+#horas = int(input("Ingrese las horas trabajadas: "))
+#costo_hora = int(input("Ingrese el costo por hora: "))
+#sueldo = horas*costo_hora
+#print(f"El sueldo es: {sueldo}")
+
+#12
+
+#cantidad = float(input("Ingrese la cantidad a invertir: "))
+#interes_anual = float(input("Ingrese el interes anual: "))
+#años = int(input("Ingrese el numero de años: "))
+#rendimiento = (cantidad*interes_anual*años)/100
+#capital = cantidad+rendimiento
+#print(f"El capital final es: {capital}")
+
+#13
+
+#precio1 = float(input("Ingrese el precio del producto 1: "))
+#precio2 = float(input("Ingrese el precio del producto 2: "))
+#precio3 = float(input("Ingrese el precio del producto 3: "))
+#precio4 = float(input("Ingrese el precio del producto 4: "))
+#precio5 = float(input("Ingrese el precio del producto 5: "))
+#precio6 = float(input("Ingrese el precio del producto 6: "))
+#precio7 = float(input("Ingrese el precio del producto 7: "))
+#precio8 = float(input("Ingrese el precio del producto 8: "))
+#precio9 = float(input("Ingrese el precio del producto 9: "))
+#precio10 = float(input("Ingrese el precio del producto 10: "))
+#promedio = (precio1 + precio2 + precio3 + precio4 + precio5 + precio6 + precio7 + precio8 + precio9 + precio10)/10
+#print(f"El promedio de los precios es: {promedio}")
+
+#14
+
+#concatenar = 'Una ambiciosa' + ' Introducción' + ' a Python' + ' Parte 1'
+#print(concatenar)
+
+#15
+
+#a
+
+#sociedad = 'aiPython P1'
+#print(sociedad)
+
+#b
+
+#print(len(sociedad))
+
+#c
+
+#print(sociedad.upper())
+
+#d
+
+#print(sociedad.lower())
+
+#16
+
+#string = "sometimes it is the people no one imagines anything of who do the things that no one can imagine."
+#string_formateado = string.capitalize().title().swapcase()
+#print(string_formateado)
+
+#17
+
+#nombre = input("Ingrese su nombre: ")
+#print(f"{nombre} {nombre} {nombre}")
+
+#18
+
+#print("        *")
+#print("       * *")
+#print("      * * *")
+#print("     * * * *")
+#print("    * * * * *")
+#print("   * * * * * *")
+#print("  * * * * * * *")
+#print(" * * * * * * * *")
+#print("*** *** *** *** ***")
+#print("      * * *")
+#print("      * * *")
+#print("     *****")
+
+#19
+
+#print("        *"
+#      "\n       * *"
+#      "\n      * * *"
+#      "\n     * * * *"
+#      "\n    * * * * *"
+#      "\n   * * * * * *"
+#      "\n  * * * * * * *"
+#      "\n * * * * * * * *"
+#      "\n*** *** *** *** ***"
+#      "\n      * * *"
+#      "\n      * * *"
+#      "\n     *****")
+
+#20
+
+#print("        *\t\t        *"
+#      "\n       * *\t\t       * *"
+#      "\n      * * *\t\t      * * *"
+#      "\n     * * * *\t\t     * * * *"
+#      "\n    * * * * *\t\t    * * * * *"
+#      "\n   * * * * * *\t   * * * * * *"
+#      "\n  * * * * * * *\t  * * * * * * *"
+#      "\n * * * * * * * *\t * * * * * * * *"
+#      "\n*** *** *** *** ***\t*** *** *** *** ***"
+#      "\n      * * *\t\t      * * *"
+#      "\n      * * *\t\t      * * *"
+#      "\n     *****\t\t     *****")
+
+#21
+
+#palabra = input("Ingrese una palabra: ")
+#resultado = palabra.replace('a', '😀')
+#print(f"Palabra modificada: {resultado}")
+
+#22
+
+#frase = "El razonamiento matemático puede considerarse más bien esquemáticamente como el ejercicio de una combinación de dos instalaciones, que podemos llamar la intuición y el ingenio."
+#palabras = frase.split()
+#primeras_palabras = ' '.join(palabras[:2])
+#print(f"Dos primeras palabras: {primeras_palabras}")
+
+#23
+
+#frase = " La ciencia es una ecuación diferencial. La religión es una condición de frontera. "
+#frase_sin_espacios = frase.strip()
+#print(f"Frase sin espacios: {frase_sin_espacios}")
+
+#24
+
+#frase = "La ciencia es una ecuación diferencial. La religión es una condición de frontera."
+#frase_separada = "La ciencia es una ecuación diferencial.\nLa religión es una condición de frontera."
+#print(f"Frase separada:\n{frase_separada}")
+
+#25
+
+#nombre = "Alexa"
+#edad = 25
+#pais = "USA"
+#ciudad = "CapeCod"
+#print(f"Nombre\tEdad\tPais\tCiudad")
+#print(f"{nombre}\t{edad}\t{pais}\t{ciudad}")
+
+
 
